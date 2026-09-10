@@ -21,7 +21,7 @@
     <?php
         echo "<p> tento kód je vnútro php</p>";
 
-        print("aj toto je moj vyois pomocou funkcie print");
+        print("aj toto je moj vypis pomocou funkcie print");
     ?>
 
 </body>
