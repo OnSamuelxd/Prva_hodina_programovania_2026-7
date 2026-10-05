@@ -17,7 +17,7 @@
         //vypisanie hodnoty premennej
         echo $cislo;
 
-        <br>
+        echo "<br>";
 
         $desCislo = 4.2;
         echo $desCislo;
@@ -25,8 +25,23 @@
         $cislo1 = 4.3;
         $cislo2 = 5.7;
 
+        //pretypovanie cisiel
         $vysledok = (int)$cislo1 + (int)$cislo2;
         echo $vysledok;
+
+        echo "<br>";
+
+        $text = "toto je moj text";
+        echo $text;
+
+        echo "<br>";
+
+        $textCislo = "toto je moje cislo: " . $cislo;
+        echo $textCislo;
+
+        echo "<br>";
+        $pravdivost = true;
+        echo $pravdivost;
     ?>
 </body>
 </html>
