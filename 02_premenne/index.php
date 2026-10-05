@@ -18,9 +18,15 @@
         echo $cislo;
 
         <br>
-        
+
         $desCislo = 4.2;
         echo $desCislo;
+
+        $cislo1 = 4.3;
+        $cislo2 = 5.7;
+
+        $vysledok = (int)$cislo1 + (int)$cislo2;
+        echo $vysledok;
     ?>
 </body>
 </html>
