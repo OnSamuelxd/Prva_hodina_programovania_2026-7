@@ -61,14 +61,14 @@
     bonus: počet bodov bude definovaný náhodne pomocou funkcie random_int(min, max)
     */
 
-    random_int(0, 100);
-    if (random_int(0, 100) >= 90){
+    $známka = random_int(0, 100);
+    if ($známka >= 90){
         echo "1";
-    } else if (random_int(0, 100) >= 80){
+    } else if ($známka >= 80){
         echo "2";
-    } else if (random_int(0, 100) >= 70){
+    } else if ($známka >= 70){
         echo "3";
-    } else if (random_int(0, 100) >= 60){
+    } else if ($známka >= 60){
         echo "4";
     } else {
         echo "5";
