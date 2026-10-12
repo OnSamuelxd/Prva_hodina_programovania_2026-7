@@ -73,6 +73,33 @@
     } else {
         echo "5";
     }
+
+    //Úloha na precvičenie si podmienok 2
+    /*
+    Vstup na party
+    vstup na party je podmienený niekolkými podmienkami:
+    1. vstup na párty je od 18 rokov
+    2. Pokiaľ je party v SNV, tak od 15 rokov
+    3. Učastník musí mať slušne oblečenie, ak nie, tak smola 
+    4. Ak si bol v base, tak máš zákaz vstupu na párty
+    5. Ak máte súhlas zakonného zástupce, môžete vstúpiť na párty od 10 rokov
+    */
+    $mojVek = 31;
+    $miestoParty = "Poprad;"
+    $slusneOblecenie = true;
+    $suhlasZakonnehoZastupcu = false;
+    $somVBase = false;
+    
+    if(slusneOblecenie == true || $somVBase == false){
+        if($mojVek >= 18){
+        echo "Go Party!";
+        } else if ($miestoParty == "SNV" && $mojVek >= 15){
+        echo "Go Party!";
+        }else if ($suhlasZakonnehoZastupcu == true && $mojVek >= 10){
+        echo "Go Party!";
+        }
+    }
+
 ?>
 </body>
 </html>
