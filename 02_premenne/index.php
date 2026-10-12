@@ -9,6 +9,10 @@
     <h1>Tento web je zameraný na premenné</h1>
 
     <?php 
+        //Premenná je miesto v pamäti 
+        //pod ktorým sa nachádza určitá hodnota
+        //Deklaruje sa znakom dolar + názov premennej
+
         echo "<p>", 2 + 4 , "</p>";
 
         //priradenie hodnoty do premennej
