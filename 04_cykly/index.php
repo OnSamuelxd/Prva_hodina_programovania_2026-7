@@ -22,7 +22,7 @@
     V cykle od 1 po 10 zväčujte font písma o 5px 
     Slove hodina priraďte nahodnú farbu v každom cykle
     */
-    echo "<h1 style='font-size: 5px; color: red;'>Najlepšia hodina na svete</h1>";
+    echo "<h1 style='font-size: 5px;'>Najlepšia <span style='color: red;'>hodina</span> na svete</h1>";
     ?>
     
 
