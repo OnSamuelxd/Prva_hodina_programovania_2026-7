@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>podmienky</title>
 </head>
 <body>
     <?php
@@ -89,7 +89,6 @@
     $slusneOblecenie = true;
     $suhlasZakonnehoZastupcu = false;
     $somVBase = false;
-    
     if(slusneOblecenie == true || $somVBase == false){
         if($mojVek >= 18){
         echo "Go Party!";
@@ -99,7 +98,6 @@
         echo "Go Party!";
         }
     }
-
-?>
+    ?>
 </body>
 </html>
