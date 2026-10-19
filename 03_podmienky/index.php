@@ -96,6 +96,8 @@
         echo "Go Party!";
         }else if ($suhlasZakonnehoZastupcu == true && $mojVek >= 10){
         echo "Go Party!";
+        } else {
+            echo "Žiadna Party";
         }
     }
     ?>
