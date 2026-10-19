@@ -17,10 +17,14 @@
     foreach : typ cyklu, ktorý prechádza cez hodnoty polí
 
     */
-    for($i = 0; $i < 10; $i++){
-        echo "Najlepšia hodina na svete <br>";
-    }
-    <p style
+    <?php
+    /* 
+    V cykle od 1 po 10 zväčujte font písma o 5px 
+    Slove hodina priraďte nahodnú farbu v každom cykle
+    */
+    echo "<h1 style='font-size: 5px; color: red;'>Najlepšia hodina na svete</h1>";
     ?>
+    
+
 </body>
 </html>
